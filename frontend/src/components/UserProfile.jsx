@@ -46,7 +46,7 @@ const UserProfile = () => {
   });
 
   const logout = () => {
-    location.clear();
+    localStorage.clear();
 
     navigate("/login");
   };
